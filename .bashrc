@@ -115,3 +115,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+export  PS1="\e[1;32m\u\e[m\e[1;33m@\e[m\e[1;35m\h\e[m:\w\$"
